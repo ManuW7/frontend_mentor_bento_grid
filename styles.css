@@ -20,7 +20,7 @@
 
 
 div:not(.main_grid_div){
-    border-radius: 3%;
+    border-radius: 12px;
 }
 
 :root{
@@ -31,8 +31,12 @@ div:not(.main_grid_div){
     --black: hsl(0, 0%, 7%);
 }
 
+body{
+    background-color: lightgray;
+}
+
 .main_grid_div{
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
     display: grid;
     margin: 50px 150px 100px 150px;
     max-width: 80%;
@@ -140,4 +144,71 @@ div:not(.main_grid_div){
     font-size: 16px;
     line-height: 1;
     font-weight: 450;
+}
+
+.multiple_accounts_div{
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: 5 / 8;
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+}
+
+.accounts_img{
+    width: 150%;
+    padding-bottom: 10px;
+}
+
+.accounts_text{
+    font-family: "DMSans-Variable";
+    line-height: 0.9;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+}
+
+.maintain_text{
+    font-family: "DMSans-Variable";
+    line-height: 0.85;
+    font-size: 28px;
+    font-weight: 550;
+    letter-spacing: -1.5px;
+    margin-bottom: 30px
+
+}
+
+.maintain_div{
+    position: relative;
+    overflow: hidden;
+    background-color: var(--orange);
+    padding: 20px 20px 0 20px;
+    grid-column: 3 / 4;
+    grid-row: 5 / 8;
+}
+
+.maintain_div .maintain_img{
+    position: absolute;
+    bottom: -60px;
+    width: 200px;
+}
+
+.AI_content_div{
+    background-color: var(--orange);
+    padding: 25px;
+    grid-column: 1;
+    grid-row: 6 / 11;
+}
+
+.AI_content_img{
+    width: 105%;
+}
+
+.AI_content_text{
+    font-family: "DMSans-Variable";
+    line-height: 0.85;
+    font-size: 38px;
+    font-weight: 550;
+    letter-spacing: -2px;
+    margin-bottom: 40px
+
 }
