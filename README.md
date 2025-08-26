@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/ManuW7/frontend_mentor_bento_grid)
+- Live Site URL: (https://manuw7.github.io/frontend_mentor_bento_grid/)
 
 ## My process
 
